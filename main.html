@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <form name="converter">
+      <table border="0">
+        <tr>
+          <td>Euro: </td><td><input type="text" name="euro" onChange="euroConverter()" /></td>
+        </tr>
+        <tr>
+          <td>USD: </td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
+        </tr>
+        <tr>
+          <td>GBP:</td><td><input type="text" name="pound" onChange="poundConverter()" /></td>
+        </tr>
+        <tr>
+          <td>JPY: </td><td><input type="text" name="yen" onChange="yenConverter()" /></td>
+        </tr>
+      </table>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
